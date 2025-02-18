@@ -12,6 +12,8 @@ header, footer {
     padding: 12px;
     padding-left: 24px;
     padding-right: 24px;
+    text-decoration: none;
+    color: black;
 }
 div {
     padding: 12px;

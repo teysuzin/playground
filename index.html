@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-        <h1>Playground</h1>
+        <h1><a href="./index.html">Playground</a></h1>
     </header>
     <div>
         <h1>👋 Seja Bem-vindo! Fique a vontade!</h1>
@@ -19,17 +19,11 @@
         <h1>Mais sobre mim.</h1>
     </div>
     <div>
-        <!-- Tag de áudio -->
-    <audio id="musicaDeFundo" autoplay loop>
-        <source src="musica.mp3" type="audio/mpeg">
-        Seu navegador não suporta áudio HTML5.
-    </audio>
-
-    <!-- Botões para controle -->
-    <button onclick="document.getElementById('musicaDeFundo').play()">▶ Play</button>
-    <button onclick="document.getElementById('musicaDeFundo').pause()">⏸ Pause</button>
-    <button onclick="document.getElementById('musicaDeFundo').volume += 0.1">🔊 Aumentar Volume</button>
-    <button onclick="document.getElementById('musicaDeFundo').volume -= 0.1">🔉 Diminuir Volume</button>
+        <audio id="musicaDeFundo" autoplay loop>
+            <source src="musica.mp3" type="audio/mpeg">
+        </audio>
+        <button onclick="document.getElementById('musicaDeFundo').play()">Play</button>
+        <button onclick="document.getElementById('musicaDeFundo').pause()">Pause</button>
     </div>
     <footer>
         <h3>Olá Mundo!</h3>
