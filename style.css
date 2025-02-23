@@ -24,6 +24,13 @@ div {
     margin-top: 8px;
     margin-bottom: 8px;
 }
+.div-coding {
+    padding: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
 @media (prefers-color-scheme: light) {
 body {
     background-color: #ffffff;
@@ -34,6 +41,9 @@ header, footer {
 div {
     background-color: #f0f0f0;
     color: #000000;
+}
+.div-coding {
+    background-image: url(./assets/coding-skill-light-mode.png);
 }
 }
 @media (prefers-color-scheme: dark) {
@@ -47,5 +57,8 @@ div {
 header, footer {
     background-color: #0f0f0f;
     color: white;
+}
+.div-coding {
+    background-image: url(./assets/coding-skill-dark-mode.png);
 }
 }
