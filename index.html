@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="./style.css">
     <title>Playground</title>
     <meta charset="UTF-8">
+    <script>
+        document.getElementById("ano").textContent = new Date().getFullYear();
+    </script>
 </head>
 <body>
     <header>
@@ -24,7 +27,8 @@
         <h2>Começei meu curso presencial de Ciência da Computação na Faculdade São Francisco de Assis, Yipeee!</h2>
     </div>
     <footer>
-        <h3>Olá Mundo!</h3>
+        <h3>Olá Mundo, este site continua frequentemente sendo atualizado, sendo seu ultimo Update feito no ano de</h3>
+        <p>&copy; <span id="ano"></span> Minha Empresa</p>
     </footer>
 </body>
 </html>
