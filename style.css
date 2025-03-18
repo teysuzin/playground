@@ -13,6 +13,12 @@ header, footer, div {
     padding: 12px 24px;
     margin-bottom: 8px;
 }
+.teste a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
 @media (prefers-color-scheme: light) {
     body {
         background-color: #ffffff;
