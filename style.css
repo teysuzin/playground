@@ -12,6 +12,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 12px 24px;
     margin-bottom: 8px;
 }
@@ -19,11 +20,18 @@ header, footer, .div {
     padding: 12px 24px;
     margin-bottom: 8px;
 }
+header a {
+    font-size: 18px;
+    font-weight: bold;
+}
+header a:hover {
+    text-decoration: underline;
+}
 @media (prefers-color-scheme: light) {
     body {
         background-color: #ffffff;
     }
-    header, footer, section {
+    header, footer, div {
         background-color: #f0f0f0;
         color: #000000;
     }
@@ -32,7 +40,7 @@ header, footer, .div {
     body {
         background-color: #000000;
     }
-    header, footer, section {
+    header, footer, div {
         background-color: #0f0f0f;
         color: #ffffff;
     }
