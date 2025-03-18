@@ -7,7 +7,9 @@
     <title>Playground</title>
     <meta charset="UTF-8">
     <script>
-        document.getElementById("ano").textContent = new Date().getFullYear();
+        document.addEventListener("DOMContentLoaded", function () {
+          document.getElementById("ano").textContent = new Date().getFullYear();
+        });
     </script>
 </head>
 <body>
