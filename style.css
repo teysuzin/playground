@@ -11,9 +11,7 @@ body {
 }
 header, footer, div {
     padding: 12px 24px;
-}
-.div {
-    margin-top: 32px;
+    margin-top: 8px;
 }
 @media (prefers-color-scheme: light) {
     body {
