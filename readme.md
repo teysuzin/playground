@@ -1,11 +1,11 @@
 # Roadmap:
 
-Pendentes:
+## Pendentes:
 
 ### Animações com CSS3;
 ### Mais informações úteis;
 ### Música de fundo;
 
-Concluídos:
+## Concluídos:
 
 ### ~Integração com JavaScript;~
