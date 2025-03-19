@@ -20,6 +20,8 @@ header, footer, section {
 .infos-section {
     padding: 12px 24px;
     margin-bottom: 8px;
+}
+.profile-img {
     width: 1000px;
     height: 1000px;
 }
