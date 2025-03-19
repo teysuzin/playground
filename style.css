@@ -9,7 +9,7 @@
 body {
     font-family: 'Merriweather', serif;
 }
-header {
+header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
