@@ -20,6 +20,8 @@ header, footer, section {
 .infos-section {
     padding: 12px 24px;
     margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
 }
 .profile-img {
     width: 256px;
