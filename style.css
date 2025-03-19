@@ -12,10 +12,11 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 12px 24px;
     margin-bottom: 8px;
 }
-header, footer, .div {
+header, footer, section {
     padding: 12px 24px;
     margin-bottom: 8px;
 }
