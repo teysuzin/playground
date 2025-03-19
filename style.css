@@ -17,6 +17,12 @@ header, footer, section {
     padding: 12px 24px;
     margin-bottom: 8px;
 }
+.infos-section {
+    padding: 12px 24px;
+    margin-bottom: 8px;
+    width: 1000px;
+    height: 1000px;
+}
 @media (prefers-color-scheme: light) {
     body {
         background-color: #ffffff;
