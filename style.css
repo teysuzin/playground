@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
 }
 header, footer, section {
-    padding: 12px 24px;
+    padding: 12px;
     margin-bottom: 8px;
 }
 .infos-section {
