@@ -22,8 +22,9 @@ header, footer, section {
     margin-bottom: 8px;
 }
 .profile-img {
-    width: 1000px;
-    height: 1000px;
+    width: 128px;
+    height: 128px;
+    border-radius: 32px;
 }
 @media (prefers-color-scheme: light) {
     body {
