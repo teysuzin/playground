@@ -17,12 +17,6 @@ header, footer, section {
     padding: 12px;
     margin-bottom: 8px;
 }
-.infos-section {
-    padding: 12px 24px;
-    margin-bottom: 8px;
-    display: flex;
-    flex-direction: column;
-}
 .profile-img {
     width: 256px;
     height: 256px;
