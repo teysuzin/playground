@@ -17,6 +17,7 @@ header {
 }
 section {
     margin-bottom: 8px;
+    padding: 18px;
 }
 .profile-img {
     width: 256px;
