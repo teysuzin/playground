@@ -13,7 +13,7 @@ header {
     display: flex;
     justify-content: space-between;
 }
-header, footer {
+header {
     padding: 18px;
 }
 section {
