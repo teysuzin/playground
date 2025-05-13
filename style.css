@@ -27,6 +27,11 @@ footer {
     height: 256px;
     border-radius: 22px;
 }
+.placeholder-img {
+    width: 256px;
+    height: 500px;
+    border-radius: 22px;
+}
 @media (prefers-color-scheme: light) {
     body {
         background-color: #ffffff;
