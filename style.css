@@ -17,7 +17,7 @@ header {
 }
 .teste {
     display: flex;
-    justify-content: space-between;
+    justify-content: end;
 }
 section {
     margin-bottom: 8px;
