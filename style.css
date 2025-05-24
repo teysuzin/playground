@@ -15,6 +15,10 @@ header {
     padding: 18px;
     margin-bottom: 8px;
 }
+.teste {
+    display: flex;
+    justify-content: space-between;
+}
 section {
     margin-bottom: 8px;
     padding: 18px;
