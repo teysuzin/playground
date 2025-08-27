@@ -3,7 +3,8 @@
 ## Roadmap:
 ### Animações com CSS3;
 ### ~Integração com JavaScript;~
-### Mais informações úteis;
+### ~Mais informações úteis~ - (Cancelado por motivos de limitação de segurança dos navegadores);
 ### Música calma e silenciosa de fundo;
+
 
 
