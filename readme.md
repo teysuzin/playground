@@ -4,5 +4,6 @@
 ### Animações com CSS3;
 ### ~Integração com JavaScript;~
 ### Mais informações úteis;
-### Música de fundo;
+### Música calma e silenciosa de fundo;
+
 
