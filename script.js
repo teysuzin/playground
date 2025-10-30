@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const img = document.getElementById("audio-container");
   const music = document.getElementById("audio-file");
 
+  music.loop = true;
+
   img.addEventListener("click", () => {
     if (music.paused) {
       music.play();
