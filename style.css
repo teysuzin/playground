@@ -49,11 +49,6 @@ footer {
   z-index: 9999;
 }
 
-.annoying-dog {
-  width: 100%;
-  height: auto;
-}
-
 @keyframes walk {
   0% {
     left: -120px;
