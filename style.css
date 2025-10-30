@@ -13,6 +13,8 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 18px;
+    padding-top: 8px;
+    margin-bottom: 8px;
 }
 section {
     padding: 18px;
