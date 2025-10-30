@@ -57,10 +57,8 @@ footer {
 @keyframes walk-left {
   0% {
     right: -120px;
-    transform: scaleX(1); /* olha pra esquerda */
   }
   100% {
     right: 100vw;
-    transform: scaleX(-1); /* espelha horizontalmente */
   }
 }
