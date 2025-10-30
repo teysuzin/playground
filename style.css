@@ -41,7 +41,7 @@ footer {
     }
 }
 .annoying-dog-container {
-  position:bottom;
+  position: fixed;
   bottom: 0;
   width: 50px;
   height: 50px;
