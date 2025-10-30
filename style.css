@@ -45,20 +45,20 @@ footer {
   bottom: 0;
   width: 100px;
   height: 100px;
-  animation: walk 18s linear infinite;
+  animation: walk 6s linear infinite;
   z-index: 9999;
 }
 
 .annoying-dog {
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
-@keyframes walk-left {
+@keyframes walk {
   0% {
-    right: -120px;
+    left: -120px;
   }
   100% {
-    right: 100vw;
+    left: 100vw;
   }
 }
