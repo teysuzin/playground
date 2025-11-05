@@ -13,4 +13,8 @@ document.addEventListener("DOMContentLoaded", function () {
       music.pause();
     }
   });
+
+  if (window.twemoji) {
+    twemoji.parse(document.body, { folder: "svg", ext: ".svg" });
+  }
 });
