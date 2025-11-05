@@ -57,9 +57,6 @@ footer {
         background-color: #f0f0f0;
         color: #000000;
     }
-    .code-section {
-    background-image: url(./assets/coding-skill-light-mode.png);
-}
 }
 @media (prefers-color-scheme: dark) {
     body {
@@ -69,7 +66,4 @@ footer {
         background-color: #0f0f0f;
         color: #ffffff;
     }
-    .code-section {
-    background-image: url(./assets/coding-skill-dark-mode.png);
-}
 }
