@@ -4,7 +4,8 @@
 ### ~Animações com CSS3~ - (Annoying Dog adcionado!!!1!);
 ### ~Integração com JavaScript;~ - (Em estágios iniciais);
 ### ~Mais informações úteis sobre mim~ - (Dei uma reformulada nos textos, tudo bonitinho contando mais sobre mim!);
-### ~Música calma e silenciosa de fundo~ - (Cancelado por motivos de limitação dos navegadores... Mas agora o Annoying Dog toca uma divertida música quando você clica nele, quebra um galho!);
+### ~Música calma e silenciosa de fundo~ - (Cancelado por motivos de limitação dos navegadores... Mas agora o Annoying Dog!);
+### Mais novidades estão por vir!
 
 
 
