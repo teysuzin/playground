@@ -11,6 +11,9 @@ img.emoji {
   width: 1.2em;
   vertical-align: -0.2em;
 }
+.hiperlink {
+    color: #0000FF;
+}
 body {
     font-family: 'Merriweather', serif;
 }
