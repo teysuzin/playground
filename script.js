@@ -14,9 +14,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 
-twemoji.parse(document.body, {
-  attributes: () => ({
-    width: "24",
-    height: "24"
-  })
+  twemoji.parse(document.body);
 });

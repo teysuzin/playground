@@ -6,6 +6,10 @@
     padding: 0;
     margin: 0;
 }
+img.emoji {
+  height: 512px;
+  width: 512px;
+}
 body {
     font-family: 'Merriweather', serif;
 }
