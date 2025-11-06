@@ -9,6 +9,7 @@
 img.emoji {
   height: 1.2em;
   width: 1.2em;
+  vertical-align: -0.8em;
 }
 body {
     font-family: 'Merriweather', serif;
