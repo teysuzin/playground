@@ -13,4 +13,6 @@ document.addEventListener("DOMContentLoaded", function () {
       music.pause();
     }
   });
+
+  twemoji.parse(document.body);
 });
