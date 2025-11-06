@@ -7,8 +7,9 @@
     margin: 0;
 }
 img.emoji {
-  height: 512px;
-  width: 512px;
+  height: 2em;
+  width: 2em;
+  vertical-align: -0.1em;
 }
 body {
     font-family: 'Merriweather', serif;
