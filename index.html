@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<meta charset="utf-8">
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="./assets/favico.ico" type="image/x-icon">
@@ -8,6 +9,10 @@
     <meta charset="UTF-8">
     <script src="script.js" defer></script>
     <script src="https://unpkg.com/twemoji@14.0.2/dist/twemoji.min.js" integrity="sha384-ICOlZarapRIX6UjKPcWKEpubjg7lGADN7Y9fYP4DU9zm0aPFhgnP5ef+XFaPyKv+" crossorigin="anonymous"></script>
+    <script>
+        // Converter todos os emojis do corpo em imagens SVG do Twemoji
+        twemoji.parse(document.body, { folder: 'svg', ext: '.svg' });
+    </script>
 </head>
 <body>
     <header>
