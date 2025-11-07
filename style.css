@@ -26,6 +26,8 @@ header {
 }
 section {
     padding: 18px;
+    padding-bottom: 0px;
+    margin-bottom: 8px;
 }
 h1 {
     margin-bottom: 8px;
