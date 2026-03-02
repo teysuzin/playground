@@ -46,6 +46,9 @@ footer {
   animation: walk 18s linear infinite;
   z-index: 9999;
 }
+.more-info-button-align {
+    text-align: right;
+}
 @keyframes walk {
   0% {
     left: -120px;
