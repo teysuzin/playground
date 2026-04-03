@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+body {         
+    font-family: 'Merriweather', serif;
+    justify-content: center;
+    line-height: 1.6;
+    padding: 40px;
+    display: flex;
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+img.emoji {
+    vertical-align: -0.2em;
+    height: 1.2em;
+    width: 1.2em;
+}
+main {
+    border-radius: 32px;
+    max-width: 800px;
+    padding: 30px;
+}
+h2 {
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+hr {
+    border: 0;
+    height: 2px;
+    margin: 20px 0;
+}
+footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 0.9em;
+}
+.teysusaur {
+    position: fixed;
+    bottom: 0;
+    animation: walk 18s linear infinite;
+    width: 120px;
+    z-index: 1000;
+}
+.teysusaur img {
+    width: 100%;
+    display: block;
+}
+@keyframes walk {
+    0% {
+      left: -120px;
+    }
+    100% {
+      left: 100vw;
+    }
+}
+@media (prefers-color-scheme: light) {
+    body {
+    background-color: #faf8fd;
+    color: #000000;    
+    }
+    main {
+    background-color: #eeedf6; 
+    }
+    hr {
+    background: #333;
+    }
+    footer {
+    color: #888;
+    }
+}
+@media (prefers-color-scheme: dark) {
+    body {
+    background-color: #0d0e12;
+    color: #ffffff;    
+    }
+    main {
+    background-color: #181920; 
+    }
+    hr { 
+    background: #ccc;
+    }
+    footer {
+    color: #bbb;
+    }
+}
