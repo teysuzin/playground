@@ -33,9 +33,9 @@ a {
     text-decoration: none;
 }
 hr {
-    border: 0;
-    height: 2px;
     margin: 20px 0;
+    height: 2px;
+    border: 0;
 }
 footer {
     text-align: center;
@@ -43,15 +43,23 @@ footer {
     font-size: 0.9em;
 }
 .teysusaur {
+    animation: walk 64s linear infinite;
     position: fixed;
-    bottom: 0;
-    animation: walk 18s linear infinite;
-    width: 120px;
     z-index: 1000;
+    width: 120px;
+    bottom: -4px;
 }
 .teysusaur img {
-    width: 100%;
     display: block;
+    width: 100%;
+}
+@keyframes tremor {
+    0% { transform: translate(0, 0); }
+    20% { transform: translate(-5px, 5px); }
+    40% { transform: translate(5px, -5px); }
+    60% { transform: translate(-5px, -5px); }
+    80% { transform: translate(5px, 5px); }
+    100% { transform: translate(0, 0); }
 }
 @keyframes walk {
     0% {
@@ -59,6 +67,29 @@ footer {
     }
     100% {
       left: 100vw;
+    }
+}
+@media (max-width: 768px) {
+    body {
+        padding: 0px;
+    }
+    .teysusaur {
+        animation: walk 32s linear infinite;
+        width: 78px;
+    }
+    main {
+        padding-right: 12px;
+        border-radius: 0px;
+        padding-left: 12px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+    h2 {
+        font-size: 21px;
+    }
+    p {
+       font-size: 17px;
     }
 }
 @media (prefers-color-scheme: light) {
