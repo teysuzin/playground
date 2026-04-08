@@ -1,18 +1,25 @@
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("ano").textContent = new Date().getFullYear();
 
-  const img = document.getElementById("audio-container");
+  const teysu = document.getElementById("teysusaur");
   const music = document.getElementById("audio-file");
+  const main = document.querySelector("main");
 
-  music.loop = true;
+  let canPlay = true;
 
-  img.addEventListener("click", () => {
-    if (music.paused) {
-      music.play();
-    } else {
-      music.pause();
-    }
+  teysu.addEventListener("click", () => {
+    if (!canPlay) return;
+
+    canPlay = false;
+    music.currentTime = 0;
+    music.play();
+
+    main.style.animation = "tremor 16s linear infinite";
+
+    music.addEventListener("ended", function stopTremor() {
+      main.style.animation = ""; // remove animação quando a música acabar
+      canPlay = true;
+      music.removeEventListener("ended", stopTremor);
+    });
   });
-
-  twemoji.parse(document.body);
 });
