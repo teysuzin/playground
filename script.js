@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", function () {
     main.style.animation = "tremor 16s linear infinite";
 
     music.addEventListener("ended", function stopTremor() {
-      main.style.animation = ""; // remove animação quando a música acabar
+      main.style.animation = "";
       canPlay = true;
       music.removeEventListener("ended", stopTremor);
     });
