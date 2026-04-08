@@ -1,7 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
   document.getElementById("ano").textContent = new Date().getFullYear();
 
-  const teysu = document.getElementById("teysusaur");
+  const teysu = document.querySelector(".teysusaur");
+  const teysuImg = teysu.querySelector("img");
   const music = document.getElementById("audio-file");
   const main = document.querySelector("main");
 
@@ -15,14 +16,15 @@ document.addEventListener("DOMContentLoaded", function () {
     music.play();
 
     main.style.animation = "tremor 0.4s linear infinite";
+    teysuImg.style.animation = "tremor 0.4s linear infinite";
 
-    teysu img.style.animation = "tremor 0.4s linear infinite";
-
-    music.addEventListener("ended", function stopTremor() {
+    function stopTremor() {
       main.style.animation = "";
-      teysu.style.animation = "";
+      teysuImg.style.animation = "";
       canPlay = true;
       music.removeEventListener("ended", stopTremor);
-    });
+    }
+
+    music.addEventListener("ended", stopTremor);
   });
 });
