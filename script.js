@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     main.style.animation = "tremor 0.4s linear infinite";
 
-    teysusaur.style.animation = "tremor 0.4s linear infinite";
+    teysu.style.animation = "tremor 0.4s linear infinite";
 
     music.addEventListener("ended", function stopTremor() {
       main.style.animation = "";
