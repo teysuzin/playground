@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
     music.currentTime = 0;
     music.play();
 
-    main.style.animation = "tremor 16s linear infinite";
+    main.style.animation = "tremor 0.4s linear infinite";
 
     music.addEventListener("ended", function stopTremor() {
       main.style.animation = "";
